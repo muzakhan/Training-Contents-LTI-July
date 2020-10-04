@@ -17,6 +17,7 @@ public class CallableImplementation {
 	 	Future<Double> fact3 = executor.submit(new Factorial(30));
 	 	Future<Double> fact4 = executor.submit(new Factorial(35));
 	 	Future<Double> fact5 = executor.submit(new Factorial(40));
+		Future<Double> fact6=executor.submit(new Factorial(50));
 	 	
 	 	// whenever you need them
 	 	// fact1.get(); // blocked : if the thread is still running
